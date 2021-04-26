@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.List;
 
 @RestController
-public class TopicsController {
+public class TopicController {
 
     @RequestMapping("/topics")
     public List<Topic> getAllTopics() {
@@ -18,4 +18,6 @@ public class TopicsController {
                 new Topic("javascript", "JavaScript", "JavaScript Description")
         );
     }
+
+    
 }
